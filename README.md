@@ -62,7 +62,6 @@ workerPool.StartWorkers()
 2. **Redis Queue**: Stores task data persistently.
 3. **Worker Pool**: Fetches tasks and executes them.
 4. **Retry Queue**: Handles failed tasks using exponential backoff.
-5. **Web Server**: Provides REST API for task monitoring.
 
 ### Task Retries
 - If a task fails, it is retried **up to max retries**.
