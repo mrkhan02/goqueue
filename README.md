@@ -19,7 +19,7 @@ go get -u github.com/mrkhan02/goqueue
 #### 1. Import Package
 ```go
 import (
-    "github.com/mrkhan02/goqueue"
+   taskqueue "github.com/mrkhan02/goqueue"
     "encoding/json"
     "log"
 )
